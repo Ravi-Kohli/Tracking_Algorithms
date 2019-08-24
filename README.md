@@ -12,3 +12,6 @@ observation_matrix = np.matrix([[x0, y0, x_dot_0, y_dot_0],
 3. Change 'n' in final line to the number of rows that you have in your observation_matrix
 4. Run
 
+# Future updates
+- I am considering adding an extra feature to plot the 3D track of the object
+- I may also look into future models which are able to incorporate non-uniform acceleration as well

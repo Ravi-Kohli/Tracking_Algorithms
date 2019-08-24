@@ -21,6 +21,9 @@ observation_matrix = np.matrix([[x0, y0, x_dot_0, y_dot_0],
 3. Change 'n' in final line to the number of rows that you have in your observation_matrix
 4. Run
 
+# KalmanFilterClass_1D.py
+This is a work in progress in trying to wrap up all of ball simulation code into a class such that any kinematics problem could be more easily set-up and run with the framework
+
 # Future updates
 - I am considering adding an extra feature to plot the 3D track of the object
 - I may also look into future models which are able to incorporate non-uniform acceleration as well (e.g. particle filter)

@@ -3,6 +3,10 @@ My exploration of simple tracking algorithms
 
 I have written a simple 2D Kalman Filter tracking algorithm
 
+# Assumptions of Kalman Filter
+1. Assumes that the state estimation is a linear function of the previous state and the control variables
+2. Assumes that the error is Gaussian
+
 # How to use 2D Kalman Filter
 1. Input data into observation_matrix in the penultimate cell at the bottom in the form:
 observation_matrix = np.matrix([[x0, y0, x_dot_0, y_dot_0],
